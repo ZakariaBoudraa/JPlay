@@ -1,5 +1,6 @@
+package launcher;
 
-public class Main {
+public class LauncherMain {
     public static void main(String[] args) {
         new UI();
     }

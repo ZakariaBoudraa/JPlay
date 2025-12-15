@@ -1,3 +1,6 @@
+package launcher;
+import blobgame.Main;
+import components.GameLauncher;
 import javax.swing.*;
 import java.awt.*;
 
@@ -11,8 +14,8 @@ public class UI extends JFrame {
 
         JButton blobgameButton = new JButton("Play BlobGame");
         JButton battlefieldButton = new JButton("Play Battlefield");
-        blobgameButton.addActionListener(e -> blobgame.Main.main(new String[]{}));
-        battlefieldButton.addActionListener(e -> battlefield.Main.main(new String[]{}));
+        blobgameButton.addActionListener(e -> Main.main(new String[]{}));
+        battlefieldButton.addActionListener(e -> GameLauncher.main(new String[]{}));
 
         add(blobgameButton);
         add(battlefieldButton);
