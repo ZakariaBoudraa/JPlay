@@ -1,6 +1,0 @@
-[submodule "BlobGame"]
-	path = BlobGame
-	url = https://github.com/ZakariaBoudraa/BlobGame.git
-[submodule "Battlefield"]
-	path = Battlefield
-	url = https://github.com/ZakariaBoudraa/Battlefield.git
