@@ -4,29 +4,29 @@ JPlay is a launcher interface that hosts and gives access to two interactive vid
 ## File Structure
 <pre>
 +--- JPlay
-  +--- Battlefield (submodule)
-    +--- src
-      +--- components
-        +--- Axebringer.java
+    +--- Battlefield (submodule)
+        +--- src
+            +--- components
+                +--- Axebringer.java
+                ...
+        +--- out
+            +--- Axebringer.class
+            ...
+        +--- Main.java
+    +--- BlobGame (submodule)
+        +--- src
+            +--- blobgame
+                +--- BlobGoal.java
+                ...
+        +--- BlobGoal.class
         ...
-      +--- out
-        +--- Axebringer.class
+    +--- components
         ...
-      +--- Main.java
-  +--- BlobGame (submodule)
-    +--- src
-      +--- blobgame
-        +--- BlobGoal.java
-        ...
-    +--- BlobGoal.class
-    ...
-  +--- components
-    ...
-  +--- launcher
-    +--- LauncherMain.class
-    +--- LauncherMain.java
-    +--- UI.class
-    +--- UI.java
+    +--- launcher
+        +--- LauncherMain.class
+        +--- LauncherMain.java
+        +--- UI.class
+        +--- UI.java
 </pre>
 
 ## Getting Started
