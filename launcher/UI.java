@@ -8,7 +8,7 @@ public class UI extends JFrame {
 
     public UI() {
         setTitle("JPlay");
-        setSize(300, 200);
+        setSize(600, 400);
         setLayout(new GridLayout(1, 2));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
