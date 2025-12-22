@@ -1,4 +1,4 @@
-package launcher;
+package src;
 import blobgame.Main;
 import components.GameLauncher;
 import javax.swing.*;
@@ -20,6 +20,6 @@ public class UI extends JFrame {
         add(blobgameButton);
         add(battlefieldButton);
 
-        setVisible(true);
+        SwingUtilities.invokeLater(() -> setVisible(true));
     }
 }
